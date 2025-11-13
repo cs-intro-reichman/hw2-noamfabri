@@ -7,9 +7,9 @@ public  class  TestRandom {
 	int countSmall = 0;
 	while (i < N) {
 		double ran = Math.random();
-		if (ran < 0.5) {
+	if (ran < 0.5) {
 			countBig++;
-		} else {
+	 } else {
 			countSmall++;
 	    }
 		i++;	
